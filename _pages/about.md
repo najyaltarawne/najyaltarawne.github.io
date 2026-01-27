@@ -12,5 +12,6 @@ title: "Najy AlTarawneh"
 ## Links
 - Department of Computer Science: https://www.cs.uh.edu  
 - LinkedIn: https://www.linkedin.com/in/YOUR-LINK  
-- Resume: /files/2025resume.pdf
+- Resume: [Download my resume](/files/2025resume.pdf)
+
 
