@@ -1,6 +1,19 @@
-/* Hide entire footer */
+/* Completely remove any footer from AcademicPages */
+footer,
 .page__footer,
-.footer,
-.site-footer {
+.site-footer,
+#footer {
   display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Also remove reserved space under page */
+.page,
+.page__inner-wrap,
+.archive {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
