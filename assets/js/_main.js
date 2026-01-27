@@ -103,10 +103,7 @@ $(document).ready(function () {
   $('#theme-toggle').on('click', toggleTheme);
 
   // Enable the sticky footer
-  var bumpIt = function () {
-    $("body").css("padding-bottom", "0");
-    $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
-  }
+
   $(window).resize(function () {
     didResize = true;
   });

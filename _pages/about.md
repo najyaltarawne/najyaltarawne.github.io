@@ -1,19 +1,15 @@
 ---
 layout: single
+author_profile: true
 permalink: /
 title: "Najy AlTarawneh"
-author_profile: true
 ---
 
-
-Education: 
+## Education
 - B.S. in Computer Science, University of Houston (2026)
 - Minor in Mathematics
-======
 
-- Department of Computer Science: https://www.cs.uh.edu
-
-======
-
-
-
+## Links
+- Department of Computer Science: https://www.cs.uh.edu  
+- LinkedIn: https://www.linkedin.com/in/YOUR-LINK  
+- Resume: /files/your_resume.pdf
