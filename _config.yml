@@ -34,6 +34,12 @@ author:
 footer:
   show: false
 
+  analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-SQJ4PCDT8H"
+
+
 
  
 
@@ -102,11 +108,6 @@ social:
   links: # An array of links to social media profiles
 
 
-# Analytics
-analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
-  google:
-    tracking_id          :
 
 
 # Reading Files
