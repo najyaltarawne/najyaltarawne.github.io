@@ -5,9 +5,10 @@ permalink: /
 title: "Najy AlTarawneh"
 ---
 ## Links
-- Department of Computer Science: <a href="https://www.uh.edu/nsm/computer-science/" target="_blank"> visit cs department</a>
+- Department of Computer Science: <a href="https://www.uh.edu/nsm/computer-science/" target="_blank"> Visit cs department</a>
 - LinkedIn: <a href="https://www.linkedin.com/in/najy-altarawne-19a464245/" target="_blank">Visit my LinkedIn</a>
 - Resume: [Download my resume](/files/2025resume.pdf)
+- my Portfolio: <a href="https://najyaltarawne.github.io/portfolio/" target="_blank"> Visit React portfolio </a>
 
 
 ## Education
