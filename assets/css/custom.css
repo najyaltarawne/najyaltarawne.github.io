@@ -1,0 +1,6 @@
+/* Hide entire footer */
+.page__footer,
+.footer,
+.site-footer {
+  display: none !important;
+}

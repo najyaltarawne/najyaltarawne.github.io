@@ -29,10 +29,12 @@ author:
 
 
   github           : "najyaltarawne"
-  last_updated: "2026-01-26-1"
-
-
   
+
+
+  custom_css:
+  - /assets/css/custom.css
+
  
 
 
