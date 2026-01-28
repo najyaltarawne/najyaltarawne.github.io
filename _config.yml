@@ -1,120 +1,78 @@
-
-
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Profile"
-title_separator          : "-"
-name                     : &name "Najy altarawne"
-description              : &description "Computer Science student at University of Houston"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://najyaltarawne.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : ""
+locale: "en-US"
+site_theme: "default"
+title: "Profile"
+title_separator: "-"
+name: "Najy Altarawne"
+description: "Computer Science student at University of Houston"
+url: "https://najyaltarawne.github.io"
+baseurl: ""
+repository: ""
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
-  # Biographic information
-  avatar           : "profile.jpg"
-  name             : "Najy ALtarawne"
-  pronouns         : # example: "she/her"  
-  bio              : "Student at the university of houstion with a 3.82 GPA. minoring in math. Expected graduation may 2026"
-  location         : "Houston, TX"
-  employer         : "University of Houston "
-  uri              : # URL
-  email            : "najyaltarawne@yahoo.com" 
+  avatar: "profile.jpg"
+  name: "Najy AlTarawne"
+  bio: "Computer Science student at the University of Houston with a 3.82 GPA, minoring in Math. Expected graduation May 2026."
+  location: "Houston, TX"
+  employer: "University of Houston"
+  email: "najyaltarawne@yahoo.com"
+  github: "najyaltarawne"
 
-
-
-  github           : "najyaltarawne"
-  last_updated: "2026-01-26-1"
+last_updated: "2026-01-26"
 
 footer:
   show: false
 
+# Google Analytics
 analytics:
   provider: google-gtag
   google:
     tracking_id: G-SQJ4PCDT8H
 
-
-
- 
-
-
-
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+teaser:
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
+
 comments:
-  provider               : 
+  provider:
 
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
+  hide: false
+  path:
 
-
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-
+# SEO
+google_site_verification:
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username:
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+  username:
+  app_id:
+  publisher:
+
+og_image:
+og_description:
+
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-
-
+  type:
+  name:
+  links:
 
 # Reading Files
 include:
   - .htaccess
   - _pages
   - files
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -142,12 +100,13 @@ exclude:
   - README
   - tmp
   - vendor
+
 keep_files:
   - .git
   - .svn
+
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -156,6 +115,7 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
-
-
+# Plugins allowed by GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
