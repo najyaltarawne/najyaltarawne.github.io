@@ -34,12 +34,10 @@ author:
 footer:
   show: false
 
- analytics:
-  provider: "google-gtag"
+analytics:
+  provider: google-gtag
   google:
-    tracking_id: "G-SQJ4PCDT8H"
-    anonymize_ip: false
-
+    tracking_id: G-SQJ4PCDT8H
 
 
 
