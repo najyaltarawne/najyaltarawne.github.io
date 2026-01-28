@@ -1,4 +1,4 @@
-# Basic Site Settings
+# ======== BASIC SITE SETTINGS ========
 locale: "en-US"
 site_theme: "default"
 title: "Profile"
@@ -9,10 +9,10 @@ url: "https://najyaltarawne.github.io"
 baseurl: ""
 repository: ""
 
-# Site Author
+# ======== AUTHOR PROFILE ========
 author:
   avatar: "profile.jpg"
-  name: "Najy AlTarawne"
+  name: "Najy Altarawne"
   bio: "Computer Science student at the University of Houston with a 3.82 GPA, minoring in Math. Expected graduation May 2026."
   location: "Houston, TX"
   employer: "University of Houston"
@@ -24,14 +24,13 @@ last_updated: "2026-01-26"
 footer:
   show: false
 
-# Google Analytics
+# ======== GOOGLE ANALYTICS ========
 analytics:
   provider: google-gtag
   google:
     tracking_id: G-SQJ4PCDT8H
 
-# Site Settings
-teaser:
+# ======== SITE BEHAVIOR ========
 breadcrumbs: false
 words_per_minute: 160
 future: true
@@ -45,77 +44,48 @@ atom_feed:
   hide: false
   path:
 
-# SEO
+# ======== SEO ========
 google_site_verification:
 bing_site_verification:
 alexa_site_verification:
 yandex_site_verification:
 
-# Social Sharing
-twitter:
-  username:
-facebook:
-  username:
-  app_id:
-  publisher:
-
-og_image:
-og_description:
-
+# ======== SOCIAL ========
 social:
   type:
   name:
   links:
 
-# Reading Files
+# ======== FILE HANDLING ========
 include:
   - .htaccess
   - _pages
   - files
 
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
   - .bundle
   - .github
-  - .jekyll-assets-cache
+  - .jekyll-cache
   - .sass-cache
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - CHANGELOG
-  - Capfile
-  - config
-  - Dockerfile
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - local
-  - log
   - node_modules
-  - package.json*
-  - Rakefile
-  - README
-  - tmp
   - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
 
 keep_files:
   - .git
   - .svn
 
+# ======== MARKDOWN / BUILD ========
 encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-# Plugins allowed by GitHub Pages
+# ======== GITHUB PAGES PLUGINS ========
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
